@@ -5,6 +5,127 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
- 
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:rowCount = "5"
+		android:columnCount = "1">
+		<TextView
+			android:text="Question 1"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/Ques1"
+			android:layout_marginLeft = "45dp"
+			android:textSize="15dp" />
+		<RadioGroup
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:id="@+id/rdBtn1">
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Vancouver"
+					android:id="@+id/rdBtn11"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Montreal"
+					android:id="@+id/rdBtn12"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Ottawa"
+					android:id="@+id/rdBtn13"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Toronto"
+					android:id="@+id/rdBtn14"
+					android:textSize="24px" />
+			</RadioGroup>
+		<TextView
+			android:text="Question 2"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/Ques2"
+			android:layout_marginLeft = "45dp"
+			android:textSize="15dp" />
+		<RadioGroup
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:id="@+id/rdBtn2">
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Vancouver"
+					android:id="@+id/rdBtn21"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Montreal"
+					android:id="@+id/rdBtn22"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Ottawa"
+					android:id="@+id/rdBtn23"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Toronto"
+					android:id="@+id/rdBtn24"
+					android:textSize="24px" />
+			</RadioGroup>
+		<TextView
+			android:text="Question 3"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/Ques3"
+			android:layout_marginLeft = "45dp"
+			android:textSize="15dp" />
+		<RadioGroup
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:id="@+id/rdBtn3">
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Vancouver"
+					android:id="@+id/rdBtn31"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Montreal"
+					android:id="@+id/rdBtn32"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Ottawa"
+					android:id="@+id/rdBtn33"
+					android:textSize="24px" />
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Toronto"
+					android:id="@+id/rdBtn34"
+					android:textSize="24px" />
+			</RadioGroup>
+		</GridLayout>
 
 </android.support.design.widget.CoordinatorLayout>
